@@ -1,7 +1,7 @@
 use std::io::{Error, ErrorKind, Read, Write};
 use std::net::{Ipv4Addr, SocketAddrV4, TcpStream};
 use std::str::FromStr;
-
+use std::time::Duration;
 use byteorder::{ByteOrder, LittleEndian};
 
 use crate::models::{AdbRequestStatus, SyncCommand};
@@ -168,6 +168,8 @@ impl ADBTransport for TCPServerTransport {
             let _ = previous.shutdown(std::net::Shutdown::Both);
         }
         let tcp_stream = TcpStream::connect(self.socket_addr)?;
+        tcp_stream.set_read_timeout(Some(Duration::from_secs(2))).expect("stream timeout read cannot set");
+        tcp_stream.set_write_timeout(Some(Duration::from_secs(2))).expect("stream timeout write cannot set");
         tcp_stream.set_nodelay(true)?;
         self.tcp_stream = Some(tcp_stream);
         log::trace!("Successfully connected to {}", self.socket_addr);
