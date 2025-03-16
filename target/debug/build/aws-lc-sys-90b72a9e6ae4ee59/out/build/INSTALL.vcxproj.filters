@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\CMakeFiles\41512c6e89e63a29a1bb138598520f3b\INSTALL_force.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{324AA89B-27BC-3681-AC3B-391913AB8B7B}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,547 @@
+cargo:rerun-if-env-changed=AWS_LC_SYS_NO_PREFIX
+cargo:rerun-if-env-changed=AWS_LC_SYS_PREGENERATING_BINDINGS
+cargo:rerun-if-env-changed=AWS_LC_SYS_EXTERNAL_BINDGEN
+cargo:rerun-if-env-changed=AWS_LC_SYS_NO_ASM
+cargo:rerun-if-env-changed=AWS_LC_SYS_CFLAGS
+cargo:rerun-if-env-changed=AWS_LC_SYS_PREBUILT_NASM
+cargo:rerun-if-env-changed=AWS_LC_SYS_C_STD
+cargo:rustc-cfg=x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=AWS_LC_SYS_CMAKE_BUILDER
+cargo:rerun-if-env-changed=AWS_LC_SYS_STATIC
+default_for Target: 'x86_64-pc-windows-msvc'
+cargo:rerun-if-env-changed=AWS_LC_SYS_STATIC
+cargo:rerun-if-env-changed=CMAKE
+cargo:warning=Building with: CMake
+cargo:warning=Symbol Prefix: Some("aws_lc_0_27_1")
+cargo:rerun-if-env-changed=CMAKE
+cargo:warning=CMAKE environment variable set: cmake
+cargo:rerun-if-env-changed=AWS_LC_SYS_STATIC
+cargo:rerun-if-env-changed=CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc
+cargo:rerun-if-env-changed=CMAKE_TOOLCHAIN_FILE
+OPT_LEVEL = Some(0)
+OUT_DIR = Some(C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\deps;C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug;C:\Users\EnricLiu\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;G:\VMware Workstation\bin\;C:\Users\EnricLiu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\anaconda3;C:\ProgramData\anaconda3\Scripts;C:\ProgramData\anaconda3\Library\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\CSGO Demos Manager;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.3.1\;E:\nodejs\;C:\Program Files\Git\cmd;c:\Users\EnricLiu\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\ffmpeg\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\TortoiseGit\bin;C:\Users\EnricLiu\AppData\Local\Android\android-sdk\platform-tools;C:\Users\EnricLiu\AppData\Local\Android\android-sdk\tools\bin;C:\Users\EnricLiu\AppData\Local\Android\android-sdk\tools;C:\Program Files\CMake\bin;C:\Users\Public\TongYuan\julia-1.9.3\bin;C:\Program Files\MWORKS\Syslab 2024b\Bin\bin;C:\Users\EnricLiu\.cargo\bin;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\EnricLiu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python311\;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python310\;C:\Users\EnricLiu\AppData\Local\Microsoft\WindowsApps;C:\Users\EnricLiu\.dotnet\tools;C:\Program Files (x86)\Tencent\QQGameTempest\Hall.57915\;E:\JetBrains\IntelliJ IDEA 2022.3.1\bin;E:\JetBrains\PyCharm 2022.3.1\bin;C:\Users\EnricLiu\AppData\Local\GitHubDesktop\bin;C:\Users\EnricLiu\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\EnricLiu\AppData\Roaming\npm;C:\Users\EnricLiu\.deno\bin;C:\Users\EnricLiu\AppData\Local\Programs\Microsoft VS Code\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+OPT_LEVEL = Some(0)
+TARGET = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=VCINSTALLDIR
+VCINSTALLDIR = None
+cargo:rerun-if-env-changed=VSTEL_MSBuildProjectFullPath
+VSTEL_MSBuildProjectFullPath = None
+cargo:rerun-if-env-changed=VSCMD_ARG_VCVARS_SPECTRE
+VSCMD_ARG_VCVARS_SPECTRE = None
+cargo:rerun-if-env-changed=WindowsSdkDir
+WindowsSdkDir = None
+cargo:rerun-if-env-changed=WindowsSDKVersion
+WindowsSDKVersion = None
+cargo:rerun-if-env-changed=LIB
+LIB = None
+PATH = Some(C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\deps;C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug;C:\Users\EnricLiu\.rustup\toolchains\stable-x86_64-pc-windows-msvc\lib\rustlib\x86_64-pc-windows-msvc\lib;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;G:\VMware Workstation\bin\;C:\Users\EnricLiu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\ProgramData\anaconda3;C:\ProgramData\anaconda3\Scripts;C:\ProgramData\anaconda3\Library\bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files (x86)\Windows Kits\8.1\Windows Performance Toolkit\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\CSGO Demos Manager;C:\Program Files\MATLAB\R2024a\runtime\win64;C:\Program Files\MATLAB\R2024a\bin;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\ProgramData\chocolatey\bin;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.3.1\;E:\nodejs\;C:\Program Files\Git\cmd;c:\Users\EnricLiu\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\PostgreSQL\16\bin;C:\Program Files\Microsoft VS Code\bin;C:\Program Files\ffmpeg\bin;C:\Program Files\NVIDIA Corporation\NVIDIA app\NvDLISR;C:\Program Files\TortoiseGit\bin;C:\Users\EnricLiu\AppData\Local\Android\android-sdk\platform-tools;C:\Users\EnricLiu\AppData\Local\Android\android-sdk\tools\bin;C:\Users\EnricLiu\AppData\Local\Android\android-sdk\tools;C:\Program Files\CMake\bin;C:\Users\Public\TongYuan\julia-1.9.3\bin;C:\Program Files\MWORKS\Syslab 2024b\Bin\bin;C:\Users\EnricLiu\.cargo\bin;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\EnricLiu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python311\;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\EnricLiu\AppData\Local\Programs\Python\Python310\;C:\Users\EnricLiu\AppData\Local\Microsoft\WindowsApps;C:\Users\EnricLiu\.dotnet\tools;C:\Program Files (x86)\Tencent\QQGameTempest\Hall.57915\;E:\JetBrains\IntelliJ IDEA 2022.3.1\bin;E:\JetBrains\PyCharm 2022.3.1\bin;C:\Users\EnricLiu\AppData\Local\GitHubDesktop\bin;C:\Users\EnricLiu\AppData\Local\JetBrains\Toolbox\scripts;C:\Users\EnricLiu\AppData\Roaming\npm;C:\Users\EnricLiu\.deno\bin;C:\Users\EnricLiu\AppData\Local\Programs\Microsoft VS Code\bin)
+cargo:rerun-if-env-changed=INCLUDE
+INCLUDE = None
+HOST = Some(x86_64-pc-windows-msvc)
+cargo:rerun-if-env-changed=CC_x86_64-pc-windows-msvc
+CC_x86_64-pc-windows-msvc = None
+cargo:rerun-if-env-changed=CC_x86_64_pc_windows_msvc
+CC_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=HOST_CC
+HOST_CC = None
+cargo:rerun-if-env-changed=CC
+CC = None
+cargo:rerun-if-env-changed=CRATE_CC_NO_DEFAULTS
+CRATE_CC_NO_DEFAULTS = None
+CARGO_CFG_TARGET_FEATURE = Some(cmpxchg16b,fxsr,sse,sse2,sse3)
+DEBUG = Some(true)
+cargo:rerun-if-env-changed=CFLAGS
+CFLAGS = None
+cargo:rerun-if-env-changed=HOST_CFLAGS
+HOST_CFLAGS = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64_pc_windows_msvc
+CFLAGS_x86_64_pc_windows_msvc = None
+cargo:rerun-if-env-changed=CFLAGS_x86_64-pc-windows-msvc
+CFLAGS_x86_64-pc-windows-msvc = None
+CARGO_ENCODED_RUSTFLAGS = Some()
+cargo:rerun-if-env-changed=CC_ENABLE_DEBUG_OUTPUT
+c11.c
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(36): error C2061: 语法错误: 标识符“atomic_bool”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(36): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(37): error C2061: 语法错误: 标识符“atomic_char”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(37): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(38): error C2061: 语法错误: 标识符“atomic_schar”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(38): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(39): error C2061: 语法错误: 标识符“atomic_uchar”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(39): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(40): error C2061: 语法错误: 标识符“atomic_short”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(40): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(41): error C2061: 语法错误: 标识符“atomic_ushort”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(41): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(42): error C2061: 语法错误: 标识符“atomic_int”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(42): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(43): error C2061: 语法错误: 标识符“atomic_uint”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(43): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(44): error C2061: 语法错误: 标识符“atomic_long”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(44): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(45): error C2061: 语法错误: 标识符“atomic_ulong”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(45): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(46): error C2061: 语法错误: 标识符“atomic_llong”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(46): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(47): error C2061: 语法错误: 标识符“atomic_ullong”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(47): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(48): error C2061: 语法错误: 标识符“atomic_char16_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(48): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(49): error C2061: 语法错误: 标识符“atomic_char32_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(49): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(50): error C2061: 语法错误: 标识符“atomic_wchar_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(50): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(51): error C2061: 语法错误: 标识符“atomic_int_least8_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(51): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(52): error C2061: 语法错误: 标识符“atomic_uint_least8_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(52): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(53): error C2061: 语法错误: 标识符“atomic_int_least16_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(53): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(54): error C2061: 语法错误: 标识符“atomic_uint_least16_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(54): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(55): error C2061: 语法错误: 标识符“atomic_int_least32_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(55): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(56): error C2061: 语法错误: 标识符“atomic_uint_least32_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(56): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(57): error C2061: 语法错误: 标识符“atomic_int_least64_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(57): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(58): error C2061: 语法错误: 标识符“atomic_uint_least64_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(58): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(59): error C2061: 语法错误: 标识符“atomic_int_fast8_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(59): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(60): error C2061: 语法错误: 标识符“atomic_uint_fast8_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(60): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(61): error C2061: 语法错误: 标识符“atomic_int_fast16_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(61): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(62): error C2061: 语法错误: 标识符“atomic_uint_fast16_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(62): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(63): error C2061: 语法错误: 标识符“atomic_int_fast32_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(63): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(64): error C2061: 语法错误: 标识符“atomic_uint_fast32_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(64): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(65): error C2061: 语法错误: 标识符“atomic_int_fast64_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(65): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(66): error C2061: 语法错误: 标识符“atomic_uint_fast64_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(66): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(67): error C2061: 语法错误: 标识符“atomic_intptr_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(67): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(68): error C2061: 语法错误: 标识符“atomic_uintptr_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(68): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(69): error C2061: 语法错误: 标识符“atomic_size_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(69): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(70): error C2061: 语法错误: 标识符“atomic_ptrdiff_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(70): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(71): error C2061: 语法错误: 标识符“atomic_intmax_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(71): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(72): error C2061: 语法错误: 标识符“atomic_uintmax_t”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(72): error C2059: 语法错误:“;”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(121): error C2061: 语法错误: 标识符“_Atomic”
+E:\Microsoft Visual Studio\2022stable\Community\VC\Tools\MSVC\14.37.32822\include\vcruntime_c11_stdatomic.h(122): error C2059: 语法错误:“}”
+cargo:warning=Compilation of 'c11.c' failed - Err(Error { kind: ToolExecError, message: "command did not execute successfully (status code exit code: 2): \"E:\\\\Microsoft Visual Studio\\\\2022stable\\\\Community\\\\VC\\\\Tools\\\\MSVC\\\\14.37.32822\\\\bin\\\\HostX64\\\\x64\\\\cl.exe\" \"-nologo\" \"-MD\" \"-Z7\" \"-Brepro\" \"-WX\" \"-W4\" \"-FoC:\\\\Users\\\\EnricLiu\\\\Desktop\\\\Projects\\\\Rust\\\\adb_client\\\\target\\\\debug\\\\build\\\\aws-lc-sys-90b72a9e6ae4ee59\\\\out\\\\out-c11\\\\e1bacabfea35bee3-c11.o\" \"-c\" \"C:\\\\Users\\\\EnricLiu\\\\.cargo\\\\registry\\\\src\\\\index.crates.io-1949cf8c6b5b557f\\\\aws-lc-sys-0.27.1\\\\aws-lc\\\\tests\\\\compiler_features_tests\\\\c11.c\"" }).
+cargo:rerun-if-env-changed=CC
+cargo:rerun-if-env-changed=CXX
+cargo:warning=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+cargo:warning=!!!   Using pre-built NASM binaries   !!!
+cargo:warning=!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+CMAKE_TOOLCHAIN_FILE_x86_64-pc-windows-msvc = None
+CMAKE_TOOLCHAIN_FILE_x86_64_pc_windows_msvc = None
+HOST_CMAKE_TOOLCHAIN_FILE = None
+CMAKE_TOOLCHAIN_FILE = None
+CMAKE_GENERATOR_x86_64-pc-windows-msvc = None
+CMAKE_GENERATOR_x86_64_pc_windows_msvc = None
+HOST_CMAKE_GENERATOR = None
+CMAKE_GENERATOR = None
+CMAKE_PREFIX_PATH_x86_64-pc-windows-msvc = None
+CMAKE_PREFIX_PATH_x86_64_pc_windows_msvc = None
+HOST_CMAKE_PREFIX_PATH = None
+CMAKE_PREFIX_PATH = None
+CMAKE_x86_64-pc-windows-msvc = None
+CMAKE_x86_64_pc_windows_msvc = None
+HOST_CMAKE = None
+CMAKE = Some("cmake")
+running: "cmake" "C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1" "-G" "Visual Studio 17 2022" "-Thost=x64" "-Ax64" "-DBUILD_SHARED_LIBS=0" "-DBORINGSSL_PREFIX=aws_lc_0_27_1_" "-DBORINGSSL_PREFIX_HEADERS=C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\generated-include" "-DBUILD_TESTING=OFF" "-DBUILD_LIBSSL=OFF" "-DDISABLE_PERL=ON" "-DDISABLE_GO=ON" "-DCMAKE_C_STANDARD=99" "-DCMAKE_ASM_NASM_COMPILER=C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/builder/prebuilt-nasm.bat" "-DCMAKE_ASM_NASM_COMPILE_OPTIONS_MSVC_RUNTIME_LIBRARY_MultiThreaded=" "-DCMAKE_ASM_NASM_COMPILE_OPTIONS_MSVC_RUNTIME_LIBRARY_MultiThreadedDLL=" "-DCMAKE_ASM_NASM_COMPILE_OPTIONS_MSVC_RUNTIME_LIBRARY_MultiThreadedDebug=" "-DCMAKE_ASM_NASM_COMPILE_OPTIONS_MSVC_RUNTIME_LIBRARY_MultiThreadedDebugDLL=" "-DCMAKE_ASM_NASM_COMPILE_OPTIONS_MSVC_DEBUG_INFORMATION_FORMAT_ProgramDatabase=" "-DCMAKE_INSTALL_PREFIX=C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out" "-DCMAKE_C_FLAGS= -nologo -MD -Brepro" "-DCMAKE_C_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS= -nologo -MD -Brepro" "-DCMAKE_CXX_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS= -nologo -MD -Brepro" "-DCMAKE_ASM_FLAGS_DEBUG= -nologo -MD -Brepro" "-DCMAKE_BUILD_TYPE=Debug" "--no-warn-unused-cli"
+Not searching for unused variables given on the command line.
+-- Selecting Windows SDK version 10.0.22621.0 to target Windows 10.0.22631.
+-- The C compiler identification is MSVC 19.37.32825.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: E:/Microsoft Visual Studio/2022stable/Community/VC/Tools/MSVC/14.37.32822/bin/Hostx64/x64/cl.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Go not found. Disabling some code generation and using pre-generated code in generated-src/
+-- Perl not found. Disabling some code generation and using pre-generated code in generated-src/
+-- Prefix build configured: performing build using prefix "aws_lc_0_27_1_" and headers path "C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aws-lc-sys-0.27.1\generated-include"
+-- The ASM_NASM compiler identification is MSVC
+-- Found assembler: C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/builder/prebuilt-nasm.bat
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+-- Looking for pthread_create in pthreads
+-- Looking for pthread_create in pthreads - not found
+-- Looking for pthread_create in pthread
+-- Looking for pthread_create in pthread - not found
+-- Found Threads: TRUE
+-- Configuring done (7.2s)
+-- Generating done (0.4s)
+-- Build files have been written to: C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build
+running: "cmake" "--build" "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build" "--target" "install" "--config" "Debug" "--parallel" "16"
+适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+
+  1>Checking Build System
+  Building Custom Rule C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/aws-lc/CMakeLists.txt
+  Building Custom Rule C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/aws-lc/crypto/CMakeLists.txt
+  Building Custom Rule C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/aws-lc/crypto/fipsmodule/CMakeLists.txt
+  Assembling chacha-x86_64.asm
+  Assembling aesni-gcm-avx512.asm
+  Assembling aesni-gcm-x86_64.asm
+  Assembling chacha20_poly1305_x86_64.asm
+  Assembling aesni-xts-avx512.asm
+  Assembling aes128gcmsiv-x86_64.asm
+  Assembling aesni-x86_64.asm
+  Assembling aesni-sha1-x86_64.asm
+  Assembling ghash-ssse3-x86_64.asm
+  Assembling aesni-sha256-x86_64.asm
+  Assembling ghash-x86_64.asm
+  Assembling trampoline-x86_64.asm
+  Assembling md5-x86_64.asm
+  Assembling p256-x86_64-asm.asm
+  Assembling p256_beeu-x86_64-asm.asm
+  Assembling rdrand-x86_64.asm
+  a_bitstr.c
+  Assembling rsaz-avx2.asm
+  Assembling rsaz-2k-avx512.asm
+  a_bool.c
+  Assembling rsaz-3k-avx512.asm
+  a_d2i_fp.c
+  a_dup.c
+  Assembling rsaz-4k-avx512.asm
+  a_gentm.c
+  Assembling sha1-x86_64.asm
+  Assembling sha256-x86_64.asm
+  a_i2d_fp.c
+  a_int.c
+  Assembling sha512-x86_64.asm
+  Assembling vpaes-x86_64.asm
+  a_mbstr.c
+  Assembling x86_64-mont5.asm
+  Assembling x86_64-mont.asm
+  a_object.c
+  a_octet.c
+  bcm.c
+  a_strex.c
+  a_strnid.c
+  a_time.c
+  a_type.c
+  a_utctm.c
+  fips_shared_support.c
+  cpucap.c
+  正在生成代码...
+  a_utf8.c
+  asn1_lib.c
+  asn1_par.c
+  asn_pack.c
+  f_int.c
+  正在生成代码...
+  正在编译...
+  f_string.c
+  tasn_dec.c
+  tasn_enc.c
+  fipsmodule.vcxproj -> C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\fipsmodule\fipsmodule.dir\Debug\fipsmodule.lib
+  tasn_fre.c
+  tasn_new.c
+  tasn_typ.c
+  tasn_utl.c
+  posix_time.c
+  base64.c
+  bio.c
+  bio_mem.c
+  connect.c
+  errno.c
+  fd.c
+  file.c
+  hexdump.c
+  pair.c
+  printf.c
+  socket.c
+  socket_helper.c
+  正在生成代码...
+  正在编译...
+  blake2.c
+  bn_asn1.c
+  convert.c
+  buf.c
+  asn1_compat.c
+  ber.c
+  cbb.c
+  cbs.c
+  unicode.c
+  chacha.c
+  cipher_extra.c
+  derive_key.c
+  e_aesctrhmac.c
+  e_aesgcmsiv.c
+  e_chacha20poly1305.c
+  e_aes_cbc_hmac_sha1.c
+  e_aes_cbc_hmac_sha256.c
+  e_des.c
+  e_null.c
+  e_rc2.c
+  正在生成代码...
+  正在编译...
+  e_rc4.c
+  e_tls.c
+  tls_cbc.c
+  conf.c
+  crypto.c
+  des.c
+  params.c
+  dh_asn1.c
+  digest_extra.c
+  dsa.c
+  dsa_asn1.c
+  ecdh_extra.c
+  ecdsa_asn1.c
+  ec_asn1.c
+  ec_derive.c
+  hash_to_curve.c
+  err.c
+  err_data.c
+  engine.c
+  evp_asn1.c
+  正在生成代码...
+  正在编译...
+  p_dh.c
+  p_dh_asn1.c
+  p_dsa.c
+  p_dsa_asn1.c
+  p_ec_asn1.c
+  p_ed25519_asn1.c
+  p_hmac_asn1.c
+  p_kem_asn1.c
+  p_pqdsa_asn1.c
+  p_rsa_asn1.c
+  p_x25519.c
+  p_x25519_asn1.c
+  p_methods.c
+  print.c
+  scrypt.c
+  sign.c
+  ex_data.c
+  hpke.c
+  hrss.c
+  kyber512r3_ref.c
+  正在生成代码...
+  正在编译...
+  kyber768r3_ref.c
+  kyber1024r3_ref.c
+  fips202.c
+  kem_kyber.c
+  lhash.c
+  mem.c
+  obj.c
+  obj_xref.c
+  ocsp_asn.c
+  ocsp_client.c
+  ocsp_extension.c
+  ocsp_http.c
+  ocsp_lib.c
+  ocsp_print.c
+  ocsp_server.c
+  ocsp_verify.c
+  pem_all.c
+  pem_info.c
+  pem_lib.c
+  pem_oth.c
+  正在生成代码...
+  正在编译...
+  pem_pk8.c
+  pem_pkey.c
+  pem_x509.c
+  pem_xaux.c
+  cipher.c
+  md.c
+  pkcs7.c
+  pkcs7_asn1.c
+  pkcs7_x509.c
+  pkcs8.c
+  pkcs8_x509.c
+  p5_pbev2.c
+  poly1305.c
+  poly1305_arm.c
+  poly1305_vec.c
+  pool.c
+  deterministic.c
+  entropy_passive.c
+  forkunsafe.c
+  rand_extra.c
+  正在生成代码...
+  正在编译...
+  windows.c
+  rc4.c
+  refcount_c11.c
+  refcount_lock.c
+  refcount_win.c
+  rsa_asn1.c
+  rsassa_pss_asn1.c
+  rsa_crypt.c
+  rsa_print.c
+  stack.c
+  siphash.c
+  spake25519.c
+  thread.c
+  thread_none.c
+  thread_pthread.c
+  thread_win.c
+  pmbtoken.c
+  trust_token.c
+  voprf.c
+  a_digest.c
+  正在生成代码...
+  正在编译...
+  a_sign.c
+  a_verify.c
+  algorithm.c
+  asn1_gen.c
+  by_dir.c
+  by_file.c
+  i2d_pr.c
+  name_print.c
+  policy.c
+  rsa_pss.c
+  t_crl.c
+  t_req.c
+  t_x509.c
+  t_x509a.c
+  v3_akey.c
+  v3_akeya.c
+  v3_alt.c
+  v3_bcons.c
+  v3_bitst.c
+  v3_conf.c
+  正在生成代码...
+  正在编译...
+  v3_cpols.c
+  v3_crld.c
+  v3_enum.c
+  v3_extku.c
+  v3_genn.c
+  v3_ia5.c
+  v3_info.c
+  v3_int.c
+  v3_lib.c
+  v3_ncons.c
+  v3_ocsp.c
+  v3_pcons.c
+  v3_pmaps.c
+  v3_prn.c
+  v3_purp.c
+  v3_skey.c
+  v3_utl.c
+  x_algor.c
+  x_all.c
+  x_attrib.c
+  正在生成代码...
+  正在编译...
+  x_crl.c
+  x_exten.c
+  x_name.c
+  x_pubkey.c
+  x_req.c
+  x_sig.c
+  x_spki.c
+  x_val.c
+  x_x509.c
+  x_x509a.c
+  x509_att.c
+  x509_cmp.c
+  x509_d2.c
+  x509_def.c
+  x509_ext.c
+  x509_lu.c
+  x509_obj.c
+  x509_req.c
+  x509_set.c
+  x509_trs.c
+  正在生成代码...
+  正在编译...
+  x509_txt.c
+  x509_v3.c
+  x509_vfy.c
+  x509_vpm.c
+  x509.c
+  x509cset.c
+  x509name.c
+  x509rset.c
+  x509spki.c
+  base64_bio.c
+  blowfish.c
+  cast.c
+  cast_tables.c
+  cfb.c
+  dh_decrepit.c
+  evp_do_all.c
+  obj_decrepit.c
+  ripemd.c
+  rsa_decrepit.c
+  x509_decrepit.c
+  正在生成代码...
+  crypto_objects.vcxproj -> C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\crypto_objects.lib
+  Building Custom Rule C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/aws-lc/crypto/CMakeLists.txt
+  crypto.vcxproj -> C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\artifacts\aws_lc_0_27_1_crypto.lib
+  Building Custom Rule C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/CMakeLists.txt
+  rust_wrapper.c
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aws-lc-sys-0.27.1\aws-lc\include\openssl/crypto.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\rust_wrapper.vcxproj]
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aws-lc-sys-0.27.1\aws-lc\include\openssl/curve25519.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\rust_wrapper.vcxproj]
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aws-lc-sys-0.27.1\aws-lc\include\openssl/aead.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\rust_wrapper.vcxproj]
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\aws-lc-sys-0.27.1\aws-lc\include\openssl\pkcs8.h(1,1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失 [C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\rust_wrapper.vcxproj]
+  rust_wrapper.vcxproj -> C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\artifacts\aws_lc_0_27_1_rust_wrapper.lib
+  Building Custom Rule C:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1/CMakeLists.txt
+  1>
+  -- Install configuration: "Debug"
+cargo:root=C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out
+cargo:rustc-link-search=native=C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\artifacts
+cargo:rustc-link-lib=static=aws_lc_0_27_1_crypto
+cargo:rustc-link-lib=static=aws_lc_0_27_1_rust_wrapper
+cargo:rerun-if-env-changed=AWS_LC_SYS_INCLUDES
+cargo:include=C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\include
+cargo:libcrypto=aws_lc_0_27_1_crypto
+cargo:conf=OPENSSL_NO_ASYNC,OPENSSL_NO_BF,OPENSSL_NO_BLAKE2,OPENSSL_NO_BUF_FREELISTS,OPENSSL_NO_CAMELLIA,OPENSSL_NO_CAPIENG,OPENSSL_NO_CAST,OPENSSL_NO_CMS,OPENSSL_NO_COMP,OPENSSL_NO_CRYPTO_MDEBUG,OPENSSL_NO_CT,OPENSSL_NO_DANE,OPENSSL_NO_DEPRECATED,OPENSSL_NO_DGRAM,OPENSSL_NO_DYNAMIC_ENGINE,OPENSSL_NO_EC_NISTP_64_GCC_128,OPENSSL_NO_EC2M,OPENSSL_NO_EGD,OPENSSL_NO_ENGINE,OPENSSL_NO_GMP,OPENSSL_NO_GOST,OPENSSL_NO_HEARTBEATS,OPENSSL_NO_HW,OPENSSL_NO_IDEA,OPENSSL_NO_JPAKE,OPENSSL_NO_KRB5,OPENSSL_NO_MD2,OPENSSL_NO_MDC2,OPENSSL_NO_OCB,OPENSSL_NO_RC2,OPENSSL_NO_RC5,OPENSSL_NO_RFC3779,OPENSSL_NO_RIPEMD,OPENSSL_NO_RMD160,OPENSSL_NO_SCTP,OPENSSL_NO_SEED,OPENSSL_NO_SM2,OPENSSL_NO_SM3,OPENSSL_NO_SM4,OPENSSL_NO_SRP,OPENSSL_NO_SSL_TRACE,OPENSSL_NO_SSL2,OPENSSL_NO_SSL3,OPENSSL_NO_SSL3_METHOD,OPENSSL_NO_STATIC_ENGINE,OPENSSL_NO_STORE,OPENSSL_NO_TS,OPENSSL_NO_WHIRLPOOL
+cargo:rerun-if-changed=builder/
+cargo:rerun-if-changed=aws-lc/

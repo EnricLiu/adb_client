@@ -1,0 +1,12 @@
+^C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\chacha\chacha-x86_64.asm
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\chacha-x86_64.obj
+^C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\cipher_extra\chacha20_poly1305_x86_64.asm
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\chacha20_poly1305_x86_64.obj
+^C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\cipher_extra\aes128gcmsiv-x86_64.asm
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\aes128gcmsiv-x86_64.obj
+^C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\cipher_extra\aesni-sha1-x86_64.asm
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\aesni-sha1-x86_64.obj
+^C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\cipher_extra\aesni-sha256-x86_64.asm
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\aesni-sha256-x86_64.obj
+^C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\test\trampoline-x86_64.asm
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\aws-lc-sys-90b72a9e6ae4ee59\out\build\aws-lc\crypto\crypto_objects.dir\Debug\trampoline-x86_64.obj

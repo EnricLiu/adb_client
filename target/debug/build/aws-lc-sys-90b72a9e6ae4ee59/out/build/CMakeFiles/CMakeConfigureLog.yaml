@@ -1,0 +1,491 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Windows - 10.0.22631 - AMD64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:14 (enable_language)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler:  
+      Build flags: -nologo;-MD;-Brepro
+      Id flags:  
+      
+      The output was:
+      0
+      \xca\xca\xd3\xc3\xd3\xda .NET Framework MSBuild \xb0汾 17.7.2+d6990bcfa
+      \xc9\xfa\xb3\xc9\xc6\xf4\xb6\xafʱ\xbc\xe4Ϊ 2025/3/16 10:22:37\xa1\xa3
+      
+      \xbdڵ\xe3 1 \xc9ϵ\xc4\xcf\xeeĿ\xa1\xb0C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj\xa1\xb1(Ĭ\xc8\xcfĿ\xb1\xea)\xa1\xa3
+      PrepareForBuild:
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8Ŀ¼\xa1\xb0Debug\\\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8Ŀ¼\xa1\xb0Debug\\CompilerIdC.tlog\\\xa1\xb1\xa1\xa3
+      InitializeBuildStatus:
+        \xd5\xfd\xd4ڴ\xb4\xbd\xa8\xa1\xb0Debug\\CompilerIdC.tlog\\unsuccessfulbuild\xa1\xb1\xa3\xac\xd2\xf2Ϊ\xd2\xd1ָ\xb6\xa8\xa1\xb0AlwaysCreate\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڶԡ\xb0Debug\\CompilerIdC.tlog\\unsuccessfulbuild\xa1\xb1ִ\xd0\xd0 Touch \xc8\xce\xce\xf1\xa1\xa3
+      ClCompile:
+        E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /nologo /W0 /WX- /diagnostics:column /Od /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"Debug\\\\" /Fd"Debug\\vc143.pdb" /external:W0 /Gd /TC /FC /errorReport:queue CMakeCCompilerId.c
+        CMakeCCompilerId.c
+      Link:
+        E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:".\\CompilerIdC.exe" /INCREMENTAL:NO /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /PDB:".\\CompilerIdC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:".\\CompilerIdC.lib" /MACHINE:X64 Debug\\CMakeCCompilerId.obj
+        CompilerIdC.vcxproj -> C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.exe
+      PostBuildEvent:
+        for %%i in (cl.exe) do @echo CMAKE_C_COMPILER=%%~$PATH:i
+        :VCEnd
+        CMAKE_C_COMPILER=E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\Hostx64\\x64\\cl.exe
+      FinalizeBuildStatus:
+        \xd5\xfd\xd4\xdaɾ\xb3\xfd\xceļ\xfe\xa1\xb0Debug\\CompilerIdC.tlog\\unsuccessfulbuild\xa1\xb1\xa1\xa3
+        \xd5\xfd\xd4ڶԡ\xb0Debug\\CompilerIdC.tlog\\CompilerIdC.lastbuildstate\xa1\xb1ִ\xd0\xd0 Touch \xc8\xce\xce\xf1\xa1\xa3
+      \xd2\xd1\xcd\xea\xb3\xc9\xc9\xfa\xb3\xc9\xcf\xeeĿ\xa1\xb0C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdC\\CompilerIdC.vcxproj\xa1\xb1(Ĭ\xc8\xcfĿ\xb1\xea)\xb5Ĳ\xd9\xd7\xf7\xa1\xa3
+      
+      \xd2ѳɹ\xa6\xc9\xfa\xb3ɡ\xa3
+          0 \xb8\xf6\xbe\xaf\xb8\xe6
+          0 \xb8\xf6\xb4\xed\xce\xf3
+      
+      \xd2\xd1\xd3\xc3ʱ\xbc\xe4 00:00:01.12
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.vcxproj"
+      
+      The C compiler identification is MSVC, found in:
+        C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/3.31.6/CompilerIdC/CompilerIdC.exe
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (enable_language)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-iwzm4q"
+      binary: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-iwzm4q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -nologo -MD -Brepro"
+      CMAKE_C_FLAGS_DEBUG: " -nologo -MD -Brepro"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-iwzm4q'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022stable/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ae697.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2025/3/16 10:22:39。
+        
+        节点 1 上的项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwzm4q\\cmTC_ae697.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_ae697.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwzm4q\\Debug\\”。
+          正在创建目录“cmTC_ae697.dir\\Debug\\cmTC_ae697.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_ae697.dir\\Debug\\cmTC_ae697.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_ae697.dir\\Debug\\cmTC_ae697.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /nologo /W1 /WX- /diagnostics:column /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_ae697.dir\\Debug\\\\" /Fd"cmTC_ae697.dir\\Debug\\vc143.pdb" /external:W1 /Gd /TC /errorReport:queue  -Brepro -Brepro "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          CMakeCCompilerABI.c
+        Link:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwzm4q\\Debug\\cmTC_ae697.exe" /INCREMENTAL /ILK:"cmTC_ae697.dir\\Debug\\cmTC_ae697.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-iwzm4q/Debug/cmTC_ae697.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-iwzm4q/Debug/cmTC_ae697.lib" /MACHINE:X64  /machine:x64 cmTC_ae697.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_ae697.vcxproj -> C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwzm4q\\Debug\\cmTC_ae697.exe
+        FinalizeBuildStatus:
+          正在删除文件“cmTC_ae697.dir\\Debug\\cmTC_ae697.tlog\\unsuccessfulbuild”。
+          正在对“cmTC_ae697.dir\\Debug\\cmTC_ae697.tlog\\cmTC_ae697.lastbuildstate”执行 Touch 任务。
+        已完成生成项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-iwzm4q\\cmTC_ae697.vcxproj”(默认目标)的操作。
+        
+        已成功生成。
+            0 个警告
+            0 个错误
+        
+        已用时间 00:00:00.81
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (enable_language)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?|link\\.exe|lld-link(\\.exe)?))("|,| |$)]
+        linker tool for 'C': E:/Microsoft Visual Studio/2022stable/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe
+        implicit libs: []
+        implicit objs: []
+        implicit dirs: []
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:14 (enable_language)"
+    message: |
+      Running the C compiler's linker: "E:/Microsoft Visual Studio/2022stable/Community/VC/Tools/MSVC/14.37.32822/bin/HostX64/x64/link.exe" "-v"
+      Microsoft (R) Incremental Linker Version 14.37.32825.0
+      Copyright (C) Microsoft Corporation.  All rights reserved.
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is GNU using "--version" did not match "(GNU assembler)|(GCC)|(Free Software Foundation)":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is AppleClang using "--version" did not match "(Apple (clang|LLVM) version)":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is Clang using "--version" did not match "(clang version)":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is ARMClang using "--version" did not match "armclang":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is OrangeC using "--version" did not match "occ \\(OrangeC\\) Version":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is HP using "-V" did not match "HP C":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is Intel using "--version" did not match "(ICC)":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is IntelLLVM using "--version" did not match "(Intel[^
+      ]+oneAPI)":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is SunPro using "-V" did not match "Sun C":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1250 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is XL using "-qversion" did not match "XL C":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "message-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:1237 (message)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASMCompiler.cmake:135 (CMAKE_DETERMINE_COMPILER_ID_VENDOR)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CMakeDetermineASM_NASMCompiler.cmake:29 (include)"
+      - "aws-lc/crypto/CMakeLists.txt:123 (enable_language)"
+    message: |
+      Checking whether the ASM_NASM compiler is MSVC using "-?" matched "Microsoft":
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved. 
+      
+      C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\3.31.6\\CompilerIdASM_NASM>REM -- SPDX-License-Identifier: Apache-2.0 OR ISC 
+      PATH: C:\\ProgramData\\anaconda3\\condabin;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\10.0.22621.0\\x64;C:\\Program Files (x86)\\Windows Kits\\10\\bin\\x64;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\deps;C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug;C:\\Users\\EnricLiu\\.rustup\\toolchains\\stable-x86_64-pc-windows-msvc\\lib\\rustlib\\x86_64-pc-windows-msvc\\lib;C:\\Python312\\Scripts\\;C:\\Python312\\;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\bin;C:\\Program Files\\NVIDIA GPU Computing Toolkit\\CUDA\\v12.3\\libnvvp;G:\\VMware Workstation\\bin\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\ProgramData\\anaconda3;C:\\ProgramData\\anaconda3\\Scripts;C:\\ProgramData\\anaconda3\\Library\\bin;C:\\Program Files\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Oracle\\Java\\javapath;C:\\Program Files (x86)\\Common Files\\Intel\\Shared Libraries\\redist\\intel64_win\\compiler;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\dotnet\\;C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\;C:\\Program Files (x86)\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\Tools\\Binn\\;C:\\Program Files\\Microsoft SQL Server\\150\\DTS\\Binn\\;C:\\Program Files (x86)\\Windows Kits\\8.1\\Windows Performance Toolkit\\;C:\\WINDOWS\\system32;C:\\WINDOWS;C:\\WINDOWS\\System32\\Wbem;C:\\WINDOWS\\System32\\WindowsPowerShell\\v1.0\\;C:\\WINDOWS\\System32\\OpenSSH\\;E:\\CSGO Demos Manager;C:\\Program Files\\MATLAB\\R2024a\\runtime\\win64;C:\\Program Files\\MATLAB\\R2024a\\bin;C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\ProgramData\\chocolatey\\bin;C:\\Program Files\\NVIDIA Corporation\\Nsight Compute 2023.3.1\\;E:\\nodejs\\;C:\\Program Files\\Git\\cmd;c:\\Users\\EnricLiu\\AppData\\Local\\Programs\\cursor\\resources\\app\\bin;C:\\Program Files\\PostgreSQL\\16\\bin;C:\\Program Files\\Microsoft VS Code\\bin;C:\\Program Files\\ffmpeg\\bin;C:\\Program Files\\NVIDIA Corporation\\NVIDIA app\\NvDLISR;C:\\Program Files\\TortoiseGit\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\platform-tools;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Android\\android-sdk\\tools;C:\\Program Files\\CMake\\bin;C:\\Users\\Public\\TongYuan\\julia-1.9.3\\bin;C:\\Program Files\\MWORKS\\Syslab 2024b\\Bin\\bin;C:\\Users\\EnricLiu\\.cargo\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Roaming\\nvm;C:\\Program Files\\nodejs;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python311\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\Scripts\\;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Python\\Python310\\;C:\\Users\\EnricLiu\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\EnricLiu\\.dotnet\\tools;C:\\Program Files (x86)\\Tencent\\QQGameTempest\\Hall.57915\\;E:\\JetBrains\\IntelliJ IDEA 2022.3.1\\bin;E:\\JetBrains\\PyCharm 2022.3.1\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\GitHubDesktop\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\JetBrains\\Toolbox\\scripts;C:\\Users\\EnricLiu\\AppData\\Roaming\\npm;C:\\Users\\EnricLiu\\.deno\\bin;C:\\Users\\EnricLiu\\AppData\\Local\\Programs\\Microsoft VS Code\\bin 
+      FILENAME:  
+      ScriptDir: C:\\Users\\EnricLiu\\.cargo\\registry\\src\\index.crates.io-1949cf8c6b5b557f\\aws-lc-sys-0.27.1\\builder 
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "aws-lc/crypto/CMakeLists.txt:695 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-b0g59r"
+      binary: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-b0g59r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-utf-8 -Wall -WX  -wd4061 -wd4100 -wd4127 -wd4146 -wd4200 -wd4204 -wd4221 -wd4242 -wd4244 -wd4267 -wd4371 -wd4388 -wd4296 -wd4350 -wd4365 -wd4389 -wd4464 -wd4510 -wd4512 -wd4514 -wd4548 -wd4610 -wd4623 -wd4625 -wd4626 -wd4628 -wd4668 -wd4706 -wd4710 -wd4711 -wd4800 -wd4820 -wd5026 -wd5027 -wd5045 -wd4255 -wd4152 -wd4295 -wd4701 -wd4505 -wd4702 -wd4191 -wd4996 -wd4746 -wd5264 -wd5266 -wd5267  -w44265"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-b0g59r'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022stable/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_72de9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2025/3/16 10:22:41。
+        
+        节点 1 上的项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\cmTC_72de9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_72de9.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\Debug\\”。
+          正在创建目录“cmTC_72de9.dir\\Debug\\cmTC_72de9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_72de9.dir\\Debug\\cmTC_72de9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_72de9.dir\\Debug\\cmTC_72de9.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX /diagnostics:column /Od /Ob0 /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72de9.dir\\Debug\\\\" /Fd"cmTC_72de9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /wd4061 /wd4100 /wd4127 /wd4146 /wd4200 /wd4204 /wd4221 /wd4242 /wd4244 /wd4267 /wd4371 /wd4388 /wd4296 /wd4350 /wd4365 /wd4389 /wd4464 /wd4510 /wd4512 /wd4514 /wd4548 /wd4610 /wd4623 /wd4625 /wd4626 /wd4628 /wd4668 /wd4706 /wd4710 /wd4711 /wd4800 /wd4820 /wd5026 /wd5027 /wd5045 /wd4255 /wd4152 /wd4295 /wd4701 /wd4505 /wd4702 /wd4191 /wd4996 /wd4746 /wd5264 /wd5266 /wd5267 /errorReport:queue  -utf-8 -w44265 "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\src.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          src.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /Wall /WX /diagnostics:column /Od /Ob0 /D _MBCS /D CMAKE_HAVE_LIBC_PTHREAD /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_72de9.dir\\Debug\\\\" /Fd"cmTC_72de9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /wd4061 /wd4100 /wd4127 /wd4146 /wd4200 /wd4204 /wd4221 /wd4242 /wd4244 /wd4267 /wd4371 /wd4388 /wd4296 /wd4350 /wd4365 /wd4389 /wd4464 /wd4510 /wd4512 /wd4514 /wd4548 /wd4610 /wd4623 /wd4625 /wd4626 /wd4628 /wd4668 /wd4706 /wd4710 /wd4711 /wd4800 /wd4820 /wd5026 /wd5027 /wd5045 /wd4255 /wd4152 /wd4295 /wd4701 /wd4505 /wd4702 /wd4191 /wd4996 /wd4746 /wd5264 /wd5266 /wd5267 /errorReport:queue  -utf-8 -w44265 "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\src.c"
+        C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\src.c(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\cmTC_72de9.vcxproj]
+        已完成生成项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\cmTC_72de9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\cmTC_72de9.vcxproj”(默认目标) (1) ->
+        (ClCompile 目标) -> 
+          C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\src.c(1,10): fatal  error C1083: 无法打开包括文件: “pthread.h”: No such file or directory [C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-b0g59r\\cmTC_72de9.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.35
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "aws-lc/crypto/CMakeLists.txt:695 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-tggucz"
+      binary: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-tggucz"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-utf-8 -Wall -WX  -wd4061 -wd4100 -wd4127 -wd4146 -wd4200 -wd4204 -wd4221 -wd4242 -wd4244 -wd4267 -wd4371 -wd4388 -wd4296 -wd4350 -wd4365 -wd4389 -wd4464 -wd4510 -wd4512 -wd4514 -wd4548 -wd4610 -wd4623 -wd4625 -wd4626 -wd4628 -wd4668 -wd4706 -wd4710 -wd4711 -wd4800 -wd4820 -wd5026 -wd5027 -wd5045 -wd4255 -wd4152 -wd4295 -wd4701 -wd4505 -wd4702 -wd4191 -wd4996 -wd4746 -wd5264 -wd5266 -wd5267  -w44265"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-tggucz'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022stable/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_b34cf.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2025/3/16 10:22:42。
+        
+        节点 1 上的项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\cmTC_b34cf.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_b34cf.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\Debug\\”。
+          正在创建目录“cmTC_b34cf.dir\\Debug\\cmTC_b34cf.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_b34cf.dir\\Debug\\cmTC_b34cf.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_b34cf.dir\\Debug\\cmTC_b34cf.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b34cf.dir\\Debug\\\\" /Fd"cmTC_b34cf.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /wd4061 /wd4100 /wd4127 /wd4146 /wd4200 /wd4204 /wd4221 /wd4242 /wd4244 /wd4267 /wd4371 /wd4388 /wd4296 /wd4350 /wd4365 /wd4389 /wd4464 /wd4510 /wd4512 /wd4514 /wd4548 /wd4610 /wd4623 /wd4625 /wd4626 /wd4628 /wd4668 /wd4706 /wd4710 /wd4711 /wd4800 /wd4820 /wd5026 /wd5027 /wd5045 /wd4255 /wd4152 /wd4295 /wd4701 /wd4505 /wd4702 /wd4191 /wd4996 /wd4746 /wd5264 /wd5266 /wd5267 /errorReport:queue  -utf-8 -w44265 "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          CheckFunctionExists.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /Wall /WX /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_b34cf.dir\\Debug\\\\" /Fd"cmTC_b34cf.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /wd4061 /wd4100 /wd4127 /wd4146 /wd4200 /wd4204 /wd4221 /wd4242 /wd4244 /wd4267 /wd4371 /wd4388 /wd4296 /wd4350 /wd4365 /wd4389 /wd4464 /wd4510 /wd4512 /wd4514 /wd4548 /wd4610 /wd4623 /wd4625 /wd4626 /wd4628 /wd4668 /wd4706 /wd4710 /wd4711 /wd4800 /wd4820 /wd5026 /wd5027 /wd5045 /wd4255 /wd4152 /wd4295 /wd4701 /wd4505 /wd4702 /wd4191 /wd4996 /wd4746 /wd5264 /wd5266 /wd5267 /errorReport:queue  -utf-8 -w44265 "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\CheckFunctionExists.c"
+        Link:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\Debug\\cmTC_b34cf.exe" /INCREMENTAL /ILK:"cmTC_b34cf.dir\\Debug\\cmTC_b34cf.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-tggucz/Debug/cmTC_b34cf.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-tggucz/Debug/cmTC_b34cf.lib" /MACHINE:X64  /machine:x64 cmTC_b34cf.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\cmTC_b34cf.vcxproj]
+        已完成生成项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\cmTC_b34cf.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\cmTC_b34cf.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthreads.lib” [C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-tggucz\\cmTC_b34cf.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.70
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "C:/Program Files/CMake/share/cmake-3.31/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "aws-lc/crypto/CMakeLists.txt:695 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-ml7wil"
+      binary: "C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-ml7wil"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-utf-8 -Wall -WX  -wd4061 -wd4100 -wd4127 -wd4146 -wd4200 -wd4204 -wd4221 -wd4242 -wd4244 -wd4267 -wd4371 -wd4388 -wd4296 -wd4350 -wd4365 -wd4389 -wd4464 -wd4510 -wd4512 -wd4514 -wd4548 -wd4610 -wd4623 -wd4625 -wd4626 -wd4628 -wd4668 -wd4706 -wd4710 -wd4711 -wd4800 -wd4820 -wd5026 -wd5027 -wd5045 -wd4255 -wd4152 -wd4295 -wd4701 -wd4505 -wd4702 -wd4191 -wd4996 -wd4746 -wd5264 -wd5266 -wd5267  -w44265"
+      CMAKE_EXE_LINKER_FLAGS: "/machine:x64"
+      CMAKE_POSITION_INDEPENDENT_CODE: "TRUE"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: 'C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-ml7wil'
+        
+        Run Build Command(s): "E:/Microsoft Visual Studio/2022stable/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c6d9.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        适用于 .NET Framework MSBuild 版本 17.7.2+d6990bcfa
+        生成启动时间为 2025/3/16 10:22:43。
+        
+        节点 1 上的项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\cmTC_7c6d9.vcxproj”(默认目标)。
+        PrepareForBuild:
+          正在创建目录“cmTC_7c6d9.dir\\Debug\\”。
+          正在创建目录“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\Debug\\”。
+          正在创建目录“cmTC_7c6d9.dir\\Debug\\cmTC_7c6d9.tlog\\”。
+        InitializeBuildStatus:
+          正在创建“cmTC_7c6d9.dir\\Debug\\cmTC_7c6d9.tlog\\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+          正在对“cmTC_7c6d9.dir\\Debug\\cmTC_7c6d9.tlog\\unsuccessfulbuild”执行 Touch 任务。
+        ClCompile:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\CL.exe /c /Zi /Wall /WX /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c6d9.dir\\Debug\\\\" /Fd"cmTC_7c6d9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /wd4061 /wd4100 /wd4127 /wd4146 /wd4200 /wd4204 /wd4221 /wd4242 /wd4244 /wd4267 /wd4371 /wd4388 /wd4296 /wd4350 /wd4365 /wd4389 /wd4464 /wd4510 /wd4512 /wd4514 /wd4548 /wd4610 /wd4623 /wd4625 /wd4626 /wd4628 /wd4668 /wd4706 /wd4710 /wd4711 /wd4800 /wd4820 /wd5026 /wd5027 /wd5045 /wd4255 /wd4152 /wd4295 /wd4701 /wd4505 /wd4702 /wd4191 /wd4996 /wd4746 /wd5264 /wd5266 /wd5267 /errorReport:queue  -utf-8 -w44265 "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\CheckFunctionExists.c"
+          用于 x64 的 Microsoft (R) C/C++ 优化编译器 19.37.32825 版
+          CheckFunctionExists.c
+          版权所有(C) Microsoft Corporation。保留所有权利。
+          cl /c /Zi /Wall /WX /diagnostics:column /Od /Ob0 /D _MBCS /D CHECK_FUNCTION_EXISTS=pthread_create /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_7c6d9.dir\\Debug\\\\" /Fd"cmTC_7c6d9.dir\\Debug\\vc143.pdb" /external:W4 /Gd /TC /wd4061 /wd4100 /wd4127 /wd4146 /wd4200 /wd4204 /wd4221 /wd4242 /wd4244 /wd4267 /wd4371 /wd4388 /wd4296 /wd4350 /wd4365 /wd4389 /wd4464 /wd4510 /wd4512 /wd4514 /wd4548 /wd4610 /wd4623 /wd4625 /wd4626 /wd4628 /wd4668 /wd4706 /wd4710 /wd4711 /wd4800 /wd4820 /wd5026 /wd5027 /wd5045 /wd4255 /wd4152 /wd4295 /wd4701 /wd4505 /wd4702 /wd4191 /wd4996 /wd4746 /wd5264 /wd5266 /wd5267 /errorReport:queue  -utf-8 -w44265 "C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\CheckFunctionExists.c"
+        Link:
+          E:\\Microsoft Visual Studio\\2022stable\\Community\\VC\\Tools\\MSVC\\14.37.32822\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\Debug\\cmTC_7c6d9.exe" /INCREMENTAL /ILK:"cmTC_7c6d9.dir\\Debug\\cmTC_7c6d9.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-ml7wil/Debug/cmTC_7c6d9.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/CMakeFiles/CMakeScratch/TryCompile-ml7wil/Debug/cmTC_7c6d9.lib" /MACHINE:X64  /machine:x64 cmTC_7c6d9.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\cmTC_7c6d9.vcxproj]
+        已完成生成项目“C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\cmTC_7c6d9.vcxproj”(默认目标)的操作 - 失败。
+        
+        生成失败。
+        
+        “C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\cmTC_7c6d9.vcxproj”(默认目标) (1) ->
+        (Link 目标) -> 
+          LINK : fatal error LNK1104: 无法打开文件“pthread.lib” [C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\aws-lc-sys-90b72a9e6ae4ee59\\out\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ml7wil\\cmTC_7c6d9.vcxproj]
+        
+            0 个警告
+            1 个错误
+        
+        已用时间 00:00:00.56
+        
+      exitCode: 1
+...

@@ -1,6 +1,0 @@
-target
-/Cargo.lock
-/.vscode
-venv
-/.mypy_cache
-pyadb_client/pyadb_client.pyi

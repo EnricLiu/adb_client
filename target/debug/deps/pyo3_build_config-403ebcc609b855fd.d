@@ -1,0 +1,14 @@
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\deps\libpyo3_build_config-403ebcc609b855fd.rmeta: C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\lib.rs C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\errors.rs C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\impl_.rs C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config-file.txt C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config.txt
+
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\deps\libpyo3_build_config-403ebcc609b855fd.rlib: C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\lib.rs C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\errors.rs C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\impl_.rs C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config-file.txt C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config.txt
+
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\deps\pyo3_build_config-403ebcc609b855fd.d: C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\lib.rs C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\errors.rs C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\impl_.rs C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config-file.txt C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config.txt
+
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\lib.rs:
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\errors.rs:
+C:\Users\EnricLiu\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\pyo3-build-config-0.23.5\src\impl_.rs:
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config-file.txt:
+C:\Users\EnricLiu\Desktop\Projects\Rust\adb_client\target\debug\build\pyo3-build-config-da0c6fb5b876631b\out/pyo3-build-config.txt:
+
+# env-dep:CARGO_PKG_VERSION=0.23.5
+# env-dep:OUT_DIR=C:\\Users\\EnricLiu\\Desktop\\Projects\\Rust\\adb_client\\target\\debug\\build\\pyo3-build-config-da0c6fb5b876631b\\out

@@ -1,0 +1,10 @@
+^C:\USERS\ENRICLIU\DESKTOP\PROJECTS\RUST\ADB_CLIENT\TARGET\DEBUG\BUILD\AWS-LC-SYS-90B72A9E6AE4EE59\OUT\BUILD\CMAKEFILES\41512C6E89E63A29A1BB138598520F3B\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/EnricLiu/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/aws-lc-sys-0.27.1 -BC:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/EnricLiu/Desktop/Projects/Rust/adb_client/target/debug/build/aws-lc-sys-90b72a9e6ae4ee59/out/build/AWS_LC_RUST.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
